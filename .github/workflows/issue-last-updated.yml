@@ -3,9 +3,9 @@ name: Update Project Date on Issue Update
 
 on:
   issues:
-    types: [edited, opened]
+    types: [edited, opened, deleted, closed, reopened, assigned, unassigned]
   issue_comment:
-    types: [created]
+    types: [created, edited, deleted]
 
 
 env:
